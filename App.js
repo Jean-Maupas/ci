@@ -5,6 +5,11 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      <View style={{flex: 1, flexDirection: 'row'}}>
+        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}} />
+        </View>
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
