@@ -4,6 +4,12 @@ Simple Native React to illustrate state management
 
 TODO:
 choose and add navigation
+explore react-native-config for heroku deploy
+code-push: direct to users
+nativebase vs elements
+expo help testing and publishing but add its env. local SDK to testing
+idea: voice activated
+
 
 Ressources
 - wikipedia

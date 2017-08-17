@@ -5,7 +5,14 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      <View style={{flex: 1, flexDirection: 'row'}}>
+      <Header
+        leftComponent={<MyCustomLeftComponent />}
+        centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
+        // rightComponent={<MyCustomRightComponent />}
+        rightComponent={{ icon: 'home', color: '#fff' }}
+      />
+
+            <View style={{flex: 1, flexDirection: 'row'}}>
         <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
         <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
         <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}} />
