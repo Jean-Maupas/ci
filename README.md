@@ -2,8 +2,16 @@ Confidence Interval Calculator
 
 Simple Native React to illustrate state management
 
+react-native-table-component
+
+
 TODO:
 choose and add navigation
+- react-navigation
+- react-native-navigation
+- native-navigation
+- react-router
+- react-router-navigation
 explore react-native-config for heroku deploy
 code-push: direct to users
 nativebase vs elements
@@ -21,3 +29,7 @@ Other online CI calculators:
 Credits
  - https://github.com/GeekyAnts/NativeBase
  - https://github.com/react-native-training/react-native-elements
+
+expo xdk and exp: publish through thir system, like codepush
+https://github.com/dabbott/react-native-web-player
+https://github.com/infinitered/ignite-ir-boilerplate

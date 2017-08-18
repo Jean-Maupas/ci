@@ -14,7 +14,7 @@ export default class App extends Component {
 
           <View style={{ flex: 0.1 }}>
             <Text style={styles.paragraph}>
-              Choose one of the challenge!
+              Choose one of the challenges!
             </Text>
           </View>
 
